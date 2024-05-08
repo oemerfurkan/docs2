@@ -470,7 +470,7 @@ It can be used inside smart contracts with a witness, similar to merkle trees
     const [ rootAfter, _ ] = keyWitness.computeRootAndKey(valueBefore.add(incrementAmount));
 
     // set the new root
-    this.treeRoot.set(rootAfter);
+    this.mapRoot.set(rootAfter);
   }
 ```
 
